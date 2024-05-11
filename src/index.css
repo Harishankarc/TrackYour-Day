@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input[type="text"]{
+  min-width: 300px;
+  height: 35px;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.add-button{
+  height: 35px;
+  min-width: 50px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: green;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.text-div{
+  display: inline;
+}
+.text{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 300px;
+  font-size: 1.6rem;
+  text-align: start;
+}
+li{
+  list-style: none;
+}
+.delete-button{
+  height: 35px;
+  min-width: 90px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+.move-button{
+  height: 35px;
+  min-width: 40px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(200, 135, 235);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 10px 10px 0px;
+}
+.to-do-list{
+  text-align: center;
+}
+
+@media screen and (max-width: 400px){
+  .text{
+    width: 140px;
+  }
+}
