@@ -1,4 +1,6 @@
 *{
+  color: white;
+  background-color: black;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,6 +21,7 @@ input[type="text"]{
   padding: 10px 10px 10px 10px;
   outline: none;
   margin-bottom: 30px;
+  border: 1px soild white;
 }
 
 .add-button{
@@ -73,8 +76,24 @@ li{
   text-align: center;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
   .text{
     width: 140px;
+    font-size: 20px;
+  }
+  h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .delete-button{
+    font-size: 15px;
+    width: 30px;
+  }
+  .move-button{
+    font-size: 15px;
+    width: 30px;
+  }
+  .move-button:last-child{
+    margin-right: 0;
   }
 }
